@@ -1,6 +1,6 @@
 #CONTACT FOR ANY QUESTIONS
 #CODERATRI-ATRISAXENA2@GMAIL.COM
-
+impot sys
 key=input("Enter key")
 key=key.replace(" ", "")
 key=key.upper()
@@ -93,6 +93,6 @@ while(1):
     elif choice==2:
         decrypt()
     elif choice==3:
-        exit()
+        sys.exit()
     else:
         print("Choose correct choice")
